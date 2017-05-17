@@ -16,6 +16,7 @@ ROOTDIR = $$PWD/../../
 include(vendor/vendor.pri)
 include($$ROOTDIR/qdispatcher.pri)
 
-DISTFILES +=     qpm.json    
+DISTFILES +=     qpm.json \    
+    ../../README.md
 
 HEADERS +=     tests.h
